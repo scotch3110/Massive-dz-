@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <script>
+        var a, b, c;
+        a = b = c = 5;
+        console.log(a, b, c);
+        a = 3;
+        b = 4;
+        c = 5;
+        console.log(a, b, c);
+    </script>
+
+    <script>
+        var d;
+        console.log(d);
+        d = true;
+        console.log(d);
+        f = 4;
+        console.log(f);
+        f = "Senya pidor";
+        console.log(f);
+        f = null;
+        console.log(f);
+        console.log(typeof(f))
+    </script>
+
+    <script>
+        var g = "JavaScript";
+        var h = "cources";
+        var result = g +" "+ h;
+        console.log(result);
+    </script>
+
+    <script>
+        var huy = 10;
+        huy = huy + 3;
+        pizda = ochko = huy;
+        console.log(pizda, ochko, huy);
+        
+    </script>
+
+    <script>
+        var row;
+        for (i = 1; i <= 50; i++) {
+        console.log(i);}
+    </script>
+     
+     <p id="script-mas1"></p>
+    <script>
+        var obj = " ";
+        var mas1 = [1, 2, 3, 4, 5];
+        for (i = 0; i < mas1.length; i++) {
+            obj += mas1[i] + "<br>";
+        document.getElementById("script-mas1").innerHTML= obj;
+        }
+    </script>
+    
+    <p id="script-mas2"></p>
+    <script>
+        var mas2 = [2, 3, 4, 5];
+        var pro = 1;
+        for (i= 0; i< mas2.length; i++){
+               pro = pro*mas2[i];
+        }
+        document.getElementById("script-mas2").innerHTML= pro;
+
+    </script>
+     
+     <p id="script-mas3"></p>
+    <script>
+        var obj1 = " ";
+        for ( i = 1; i <= 100; i++) {
+        if ( i%2===0){obj1 += i +"<br>";
+        document.getElementById("script-mas3").innerHTML= obj1;
+            
+        }}
+    </script>
+
+       <p id="row2"></p>
+    <script>
+        var mas4 = [2, 5, 9, 15, 0, 4];
+        for (i = 0; i < mas4.length; i++) {
+        if (mas4[i]> 3 && mas4[i] < 10){
+            document.getElementById("row2").innerHTML += mas4[i] + "<br>";
+
+        }
+            
+        }
+    </script>
+       
+       <p id="object11.1"></p>
+       <p id="object11.2"></p>
+    <script>
+        var n=1000, int=0;
+        while(n>50){
+            var obj11 = n / 2;
+            var n = obj11;
+            int++;
+        }
+        document.getElementById("object11.1").innerHTML=n;
+        document.getElementById("object11.2").innerHTML=int;
+    </script>
+
+    
+</body>
+</html>
